@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response, Router } from "express";
 
-const router = Router();
+const router: Router = Router();
 
 router.get("/", (req: Request, res: Response, next: NextFunction) => {
   console.log(__dirname);
